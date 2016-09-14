@@ -1,0 +1,29 @@
+[33mcommit a889fc5637e70ca933b2f4416fc92b1f675708ce[m
+Author: Elson Mathew <emathew.dev@gmail.com>
+Date:   Wed Sep 14 20:03:09 2016 +0000
+
+    Database and model created for quote and author
+
+[33mcommit a720312e7595491bfbc85fcc1d7d4bc452faddaf[m
+Author: Elson Mathew <emathew.dev@gmail.com>
+Date:   Wed Sep 14 19:53:41 2016 +0000
+
+    Add heading to splurty app homepage
+
+[33mcommit 9f9ccfbf11855f9b8ad04cf5a020e9112027cf15[m
+Author: Elson Mathew <emathew.dev@gmail.com>
+Date:   Wed Sep 14 17:41:38 2016 +0000
+
+    Adkust production.rb so it completes assests
+
+[33mcommit 30f64d792c5d97f343a195e75ae0ad5a929e2c7f[m
+Author: Elson Mathew <emathew.dev@gmail.com>
+Date:   Wed Sep 14 17:33:44 2016 +0000
+
+    Added rails_12factor gem
+
+[33mcommit 68b089fe37d99ded90f28349df3ffb10d9ed1897[m
+Author: Elson Mathew <emathew.dev@gmail.com>
+Date:   Mon Sep 12 22:27:00 2016 +0000
+
+    Initial commit
