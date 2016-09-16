@@ -4,3 +4,52 @@
 .clear {
   clear:both; 
 }
+
+.circle { 
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight:bold;
+    font-style: italic;
+    position: relative;
+    border-radius: 100%;
+    background: #f84342;
+    border: 1px solid #F7F7F7;
+    width: 80px;
+    height: 80px;
+    margin: 10px 10px;
+    text-align: center;
+    color: #FFF;
+    font-size: 8px;
+    line-height: 20px;
+    cursor: pointer;
+    transform:rotate(0deg);
+    -ms-transform:rotate(0deg); /* IE 9 */
+    -webkit-transform:rotate(0deg); /* Opera, Chrome, and Safari */
+}
+
+.slogan {
+  font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+  font-sytle: italics;
+  font-size: 20px;
+  padding-top: 26px;
+}
+
+
+.links {
+  padding-top: 26px;
+}
+
+.links a {
+  color: black;
+  font-size: 25px;
+  border-bottom: 1px solid #F08698;
+}
+
+hr {
+  clear:both;
+}
+
+header {
+  border-bottom: 9px solid #222222;
+}
+
+
