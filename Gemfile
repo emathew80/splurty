@@ -15,6 +15,7 @@ gem 'coffee-rails', '~> 4.0.0'
 # gem 'therubyracer',  platforms: :ruby
 
 gem 'bootstrap-sass', '~> 3.3.5.1'
+gem 'simple_form'
 gem 'sprockets', '2.11.0'
 
 # Use SCSS for stylesheets
