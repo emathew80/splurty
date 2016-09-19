@@ -65,7 +65,6 @@
 
 .about {
   font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
-  
 }
 
 hr {
@@ -82,8 +81,31 @@ h1 {
   font-weight: bold;
   font-style: 48px
 }
+
 h2 {
   font-family: 'Dosis', sans-serif;
   font-style: italics; 
 }
 
+h3 span {
+  font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+  font-sytle: italics;
+  font-size: 20px;
+  color:  #F56969;
+}
+
+h3 {
+  font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+  font-sytle: italics;
+  font-size: 26px;
+}
+
+::selection {
+  background-color: #f84342;
+}
+
+@media (max-width: 750px) {
+  .footer-blurb {
+    text-align: left;
+  }
+}
