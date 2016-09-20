@@ -13,7 +13,7 @@
     position: relative;
     border-radius: 100%;
     background: #f84342;
-    border: 1px solid #F7F7F7;
+    border: 3px solid #080606;
     width: 80px;
     height: 80px;
     margin: 10px 10px;
@@ -48,6 +48,7 @@
 }
 
 .next-quote {
+  font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
   color:#f84342;
   font-size: 20px
 }
@@ -56,7 +57,12 @@
   font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
   font-sytle: italics;
   text-align: right;
-  font-size: 10px;
+  font-size: 15px;
+}
+
+.footer-blurb-not-enough {
+  text-align: left;
+  
 }
 
 .logo:hover{
@@ -68,14 +74,11 @@
 
 }
 
-header {
-  border-bottom: 9px solid #F56969;
-}  
+.box {
+  background-color: rgba(245,181,91,0.5);
 
-hr {
-  clear:both;
 }
-
+ 
 
 h1 {
   font-family: 'quicksanditalic';
@@ -101,6 +104,13 @@ h3 {
   font-size: 26px;
 }
 
+hr {
+    clear:both;
+    border-color: #F03030;
+    border-width: 9px;
+    padding: 0px;
+  }
+
 ::selection {
   background-color: #f84342;
 }
@@ -110,3 +120,4 @@ h3 {
     text-align: left;
   }
 }
+
