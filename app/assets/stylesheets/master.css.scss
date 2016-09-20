@@ -28,10 +28,11 @@
 }
 
 .slogan {
-  font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
-  font-style: italics;
-  font-size: 20px;
+  
+  font-size: 18px;
   padding-top: 26px;
+  font-family: 'quicksanditalic';
+  font-weight: bold;
 }
 
 
@@ -41,10 +42,11 @@
 
 .links a {
   color: black;
+  padding-left: 50px;
   text-align: right;
   font-size: 20px;
-  font-family: 'quicksanditalic';
-  font-weight: bold;
+  font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+  font-style: italics;
 }
 
 .next-quote {
@@ -55,7 +57,7 @@
 
 .footer-blurb {
   font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
-  font-sytle: italics;
+  font-style: italics;
   text-align: right;
   font-size: 15px;
 }
