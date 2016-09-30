@@ -3,6 +3,9 @@ class QuotesController < ApplicationController
     @quote = Quote.order("RANDOM()").first
   end
 
+  def show
+    @quote = Quote.find(params[:id])
+  end
 
   def create 
     @quote = Quote.create(quote_params)
